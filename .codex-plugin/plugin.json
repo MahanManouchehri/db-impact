@@ -1,0 +1,18 @@
+{
+  "name": "db-impact",
+  "version": "1.0.0",
+  "description": "Database change impact analysis before execution.",
+  "author": {
+    "name": "Mahan Manouchehri"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Db Impact",
+    "shortDescription": "Analyze database-change blast radius.",
+    "longDescription": "Reviews schema, data, dependencies, production risk, compatibility, and rollback before a database change.",
+    "developerName": "Mahan Manouchehri",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Analyze the impact of this database change before execution."
+  }
+}
